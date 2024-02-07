@@ -1,4 +1,4 @@
-# Jupyter Notebook in Virtual Environment
+# Virtual Environment Set Up
 
 ### 1. Create a virtual environment for the default version:
 

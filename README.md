@@ -36,8 +36,15 @@ ipython kernel install --user --name=yourenv
 
 ![image](https://github.com/CodeWithCharan/virtual-env-setup/assets/106027109/aca431ae-b861-447a-97c6-08a181681fb9)
 
-### 5. If you no longer need the kernel you can uninstall it (optional):
+### 5. If you want to freeze your requirements (optional):
+```
+pip3 freeze > requirements.txt  # Python3
+pip freeze > requirements.txt  # Python2
+```
+
+### 6. If you no longer need the kernel you can uninstall it (optional):
 
 ```
 jupyter-kernelspec uninstall yourenv
 ```
+

@@ -26,6 +26,11 @@ yourenv\Scripts\activate.bat
 yourenv\Scripts\Activate.ps1
 ```
 
+- In Linux:
+```
+$ source mlopsenv/Scripts/activate
+```
+
 ## 3. Install ipykernel
 ```
 pip install ipykernel
